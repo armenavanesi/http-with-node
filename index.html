@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Creative Upload Service</title>
+    <style>
+      .box {
+        border: 2px solid #eee;
+        padding: 50px 50px;
+        max-width: 500px;
+        margin: 4em auto;
+        text-align: center;
+      }
+      .title {
+        margin-top: 10px;
+      }
+      .left-aligned {
+        text-align: left;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="box">
+      <h1 class="title left-aligned">Creative Upload Service</h1>
+        <form action="/upload" enctype="multipart/form-data" method="post" class=" left-aligned">
+          <input type="text" name="description" placeholder="Enter a description here"><br>
+          <input type="file" name="upload" multiple="multiple"><br>
+          <input type="submit" value="Upload">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
