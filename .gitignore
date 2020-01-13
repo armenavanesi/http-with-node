@@ -2,6 +2,9 @@ package-lock.json
 node_modules/
 .DS_Store
 *.log
+*.jpg
+*.png
+.jshintrc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
